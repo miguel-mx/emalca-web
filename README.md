@@ -1,4 +1,3 @@
-Igeo
+Emalca 2020
 ####
 
-Iberoamericano de Geometría Algebráica

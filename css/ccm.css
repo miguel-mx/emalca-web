@@ -19,16 +19,20 @@ body {
     color: #615e62;
 }
 .hero-image {
-    /*background: url(../img/background-header.png) no-repeat center;*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-
-    /*background-image: linear-gradient(to bottom, #000c2e, #8f0068);*/
+    background: url(../img/banner1.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
     position: relative;
-    background: #18448E;
+    /*background: #18448E;*/
     min-height: 340px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.logo-emalca {
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    width: 600px;
 }
 
 .hero-text {
@@ -60,7 +64,7 @@ body {
 
 .hero-text h4 {
     font-size: 20px;
-    color: white;
+    color: #b4e6ff;
 }
 
 #plato {
@@ -77,7 +81,12 @@ body {
 }
 
 #registro {
-    background: #004188;
+    /*background: #004188;*/
+    background-image: url(../img/banner2.jpg);
+    background-position: 70% bottom;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-color: #252796;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -111,7 +120,11 @@ body {
 }
 
 #organizadores {
-    background: #454545;
+    background-image: url(../img/banner3.png);
+    background-position: 80% bottom;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-color: #242795;
     padding-top: 40px;
     padding-bottom: 40px;
 }
