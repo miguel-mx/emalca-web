@@ -184,6 +184,13 @@ body {
     .hero-text h1 {
         font-size: 36px;
     }
+
+    .logo-emalca {
+        /*max-width: 100%;*/
+        /*height: auto;*/
+        width: 100%;
+    }
+
     .presentacion p {
         font-size: 1.1rem;
     }
