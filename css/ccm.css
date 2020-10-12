@@ -21,7 +21,6 @@ body {
 .hero-image {
     background: url(../img/banner1.jpg) no-repeat center;
     background-size: cover;
-    background-position: center;
     position: relative;
     /*background: #18448E;*/
     min-height: 340px;
@@ -72,7 +71,7 @@ body {
     height: 240px;
     /*opacity: 0.92;*/
     margin-left: 55%;
-    bottom: 0px;
+    bottom: 0;
     /*box-sizing:border-box;*/
 }
 
@@ -175,7 +174,7 @@ body {
     font-size: 1.1rem;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 414px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 
     body {
         margin-top: 56px;
@@ -196,7 +195,7 @@ body {
     }
 
     .logo-footer {
-        margin-left: 0px;
+        margin-left: 0;
         margin-top: 25px;
     }
 
@@ -208,8 +207,8 @@ body {
 
 /* iPhone 11 */
 /* 1792x828px at 326ppi */
-@media only screen
-    and (device-width: 414px)
-    and (device-height: 896px)
-    and (-webkit-device-pixel-ratio: 2) { }
-}
+/*@media only screen {*/
+/*    and (device-width: 414px)*/
+/*    and (device-height: 896px)*/
+/*    and (-webkit-device-pixel-ratio: 2) { }*/
+/*}*/
