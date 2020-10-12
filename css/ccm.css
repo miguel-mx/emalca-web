@@ -175,7 +175,7 @@ body {
     font-size: 1.1rem;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 414px) {
 
     body {
         margin-top: 56px;
@@ -205,8 +205,11 @@ body {
         justify-content:center!important;
     }
 }
-@media only screen and (max-width: 770px) {
-  #plato {
-    display: none;
-  }
+
+/* iPhone 11 */
+/* 1792x828px at 326ppi */
+@media only screen
+    and (device-width: 414px)
+    and (device-height: 896px)
+    and (-webkit-device-pixel-ratio: 2) { }
 }
