@@ -128,6 +128,10 @@ body {
     color: #454545;
 }
 
+.cursos a {
+    color: #0055b1;
+}
+
 #organizadores {
     background-image: url(../img/banner3.png);
     background-position: 80% bottom;
